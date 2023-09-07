@@ -1,0 +1,204 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  background: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 50px;
+}
+.container .phone_wrapper {
+  background-color: #000;
+  width: 390px;
+  height: 844px;
+  border: #575454 solid 2px;
+  padding: 10px;
+  border-radius: 40px;
+}
+.container .phone_wrapper .phone_screen {
+  background-color: #fff;
+  width: 100%;
+  height: 100%;
+  border-radius: 32px;
+  background-image: url(./images/astronomy-1867616_1280.jpg);
+  position: relative;
+}
+.container .phone_wrapper .phone_screen .camera {
+  width: 97px;
+  height: 30px;
+  border-radius: 20px;
+  background-color: #000;
+  margin: 10px 132px;
+  position: absolute;
+}
+.container .phone_wrapper .phone_screen .clock {
+  color: #fff;
+  margin: 193px 22px;
+  position: absolute;
+  font-size: 70px;
+}
+.container .phone_wrapper .phone_screen .AllApps {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+.container .phone_wrapper .phone_screen .AllApps .timer {
+  width: 70px;
+  height: 70px;
+  color: #fff;
+  font-family: sans-serif;
+  text-align: center;
+  font-weight: bold;
+  font-size: 24px;
+  margin-left: 16px;
+}
+.container .phone_wrapper .phone_screen .AllApps .Alarm {
+  width: 70px;
+  height: 70px;
+  color: #fff;
+  font-family: sans-serif;
+  text-align: center;
+  font-weight: bold;
+  font-size: 24px;
+  margin-left: 16px;
+}
+.container .phone_wrapper .phone_screen .AllApps .Alarm img {
+  width: 70px;
+  height: 70px;
+}
+
+.phone_timer_screen {
+  background-color: #fff;
+  width: 100%;
+  height: 100%;
+  border-radius: 32px;
+  background-image: url(./images/3-nature-wallpaper-mountain.jpg);
+  position: relative;
+  display: none;
+}
+.phone_timer_screen .camera {
+  width: 97px;
+  height: 30px;
+  border-radius: 20px;
+  background-color: #000;
+  margin: 10px 132px;
+  position: absolute;
+}
+.phone_timer_screen .return {
+  width: 35px;
+  height: 35px;
+  position: absolute;
+  top: 60px;
+  left: 24px;
+}
+.phone_timer_screen .return img {
+  width: 35px;
+  height: 35px;
+}
+.phone_timer_screen .time_wrapper {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.phone_timer_screen .time_wrapper .time {
+  color: #fff;
+  background-color: rgba(255, 255, 255, 0.4862745098);
+  width: 100%;
+  text-align: center;
+}
+.phone_timer_screen .time_wrapper .time_btns {
+  width: 100px;
+  height: 60px;
+  border-radius: 30%;
+  background-color: transparent;
+  border: none;
+  color: #fff;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.phone_alarm_screen {
+  background-color: #fff;
+  width: 100%;
+  height: 100%;
+  border-radius: 32px;
+  background-image: url(./images/grand+canyon.jpg);
+  position: relative;
+  display: none;
+}
+.phone_alarm_screen .camera {
+  width: 97px;
+  height: 30px;
+  border-radius: 20px;
+  background-color: #000;
+  margin: 10px 132px;
+  position: absolute;
+}
+.phone_alarm_screen .return {
+  width: 35px;
+  height: 35px;
+  position: absolute;
+  top: 60px;
+  left: 24px;
+}
+.phone_alarm_screen .return img {
+  width: 35px;
+  height: 35px;
+}
+
+.alarm_wrapper {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.alarm_wrapper .alarm_timeset {
+  width: 190px;
+  height: 70px;
+  font-size: 40px;
+  padding: 10px;
+}
+.alarm_wrapper .alarm_warning {
+  color: #fff;
+}
+.alarm_wrapper .btn_wrapper {
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.5803921569);
+  border-radius: 20px;
+  margin-top: 20px;
+}
+
+.battery_wrapper {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  left: 19px;
+  top: 70px;
+}
+.battery_wrapper .battery {
+  width: 80px;
+  height: 50px;
+  border: #575454 solid 3px;
+}
+.battery_wrapper .tail {
+  width: 15px;
+  height: 15px;
+  background-color: #575454;
+  margin-right: 10px;
+}
+.battery_wrapper .battery_percentage {
+  color: #fff;
+}/*# sourceMappingURL=style.css.map */

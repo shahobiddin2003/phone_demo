@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="phone_wrapper">
+        <div class="phone_screen">
+          <div class="camera"></div>
+          <h1 class="clock" id="clock"></h1>
+          <div class="battery_wrapper">
+            <div class="battery"></div>
+            <div class="tail"></div>
+            <h4 class="battery_percentage">30%</h4>
+          </div>
+          <div class="AllApps">
+            <div class="apps timer" id="timer">
+              <img src="./images/ios-timer-9.svg" alt="" />
+              <p class="apps_text">Timer</p>
+            </div>
+            <div class="apps Alarm">
+              <img src="./images/icons8-alarm-clock-94.png" alt="" />
+              <p class="apps_text">Alarm</p>
+            </div>
+            <div class="apps">
+              <img src="" alt="" />
+            </div>
+            <div class="apps">
+              <img src="" alt="" />
+            </div>
+          </div>
+        </div>
+        <div class="phone_timer_screen">
+          <div class="camera"></div>
+          <button class="return">
+            <img src="./images/—Pngtree—back arrow_4659212.png" alt="" />
+          </button>
+          <div class="time_wrapper">
+            <h1 class="time">00:00</h1>
+            <button class="time_btns start">Start</button>
+            <button class="time_btns Stop">Stop</button>
+          </div>
+        </div>
+        <div class="phone_alarm_screen">
+          <div class="camera"></div>
+          <button class="return">
+            <img src="./images/—Pngtree—back arrow_4659212.png" alt="" />
+          </button>
+
+          <div class="alarm_wrapper">
+            <audio class="audio">
+              <source src="/alarm.ogg" type="audio/ogg" />
+            </audio>
+            <input
+              type="time"
+              name="alarm"
+              class="alarm_timeset"
+              id="alarm_timeset"
+            />
+            <h2 class="alarm_warning"></h2>
+            <div class="btn_wrapper">
+              <button class="set_alarm btn btn-outline-success btn-sm">
+                set Alarm
+              </button>
+              <button class="stop_alarm btn btn-outline-warning btn-sm">
+                Stop
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./app.js"></script>
+  </body>
+</html>
